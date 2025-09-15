@@ -73,4 +73,8 @@ export class TableScene extends Phaser.Scene {
     }).setOrigin(0.5)
     this.time.delayedCall(1200, ()=>t.destroy())
   }
+
+  private test() {
+    console.log('Test');
+  }
 }
